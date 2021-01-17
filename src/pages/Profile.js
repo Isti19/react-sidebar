@@ -1,7 +1,22 @@
+import EditProfileDetails from './EditProfileDetails';
+import './Profile.css';
+import EditDetailsSuccess from './EditDetailsSuccess';
+import { useState } from 'react';
+
 function Profile() {
+  const [isSubmitted, setIsSubmitted] = useState(false);
+
+  function submitForm() {
+    setIsSubmitted(true);
+  }
+
   return (
-    <div className="Profile">
-      <h1>Profile</h1>
+    <div>
+      {!isSubmitted ? (
+        <EditProfileDetails submitForm={submitForm} />
+      ) : (
+        <EditDetailsSuccess />
+      )}
     </div>
   );
 }
