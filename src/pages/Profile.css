@@ -4,151 +4,107 @@
   padding: 0;
 }
 
-.edit-profile {
-  height: 100vh;
+.profile-container {
   display: grid;
-  grid-template-columns: 200px 200px 200px 200px;
+  /* position: relative; */
+  grid-template-columns: 34% 33% 33%;
   align-items: center;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #fff;
 }
 
-.change-photo-btn {
-  font-size: 10px;
-  color: #fff;
+.profile-img {
+  /* margin: 50px 50px; */
+  height: 400px;
+  width: 400px;
+}
+
+.change-photo-btn,
+.edit-btn,
+.submit-btn {
+  height: 30px;
+  width: 150px;
   background-color: #1245a8;
-  border-radius: 4px;
-  width: 50px;
+  color: #fff;
+  font-size: 16px;
+  /* border-radius: 4px; */
+  border: 1px solid #fff;
 }
 
-.edit-btn {
-  /* height: 20px; */
-  font-size: 10px;
-  border-radius: 4px;
-  width: 50px;
-}
-
-.edit-btn:hover {
+.change-photo-btn:hover,
+.edit-btn:hover,
+.submit-btn:hover {
   background-color: #0467fb;
 }
 
-.name-occupation-form p {
-  color: red;
+input[type='text'],
+input[type='tel'],
+input[type='email'],
+input[type='password'] {
+  border-radius: 4px;
+  border: 5px solid #fff;
+  background-color: #fff;
 }
 
-.about-sections {
+.name-occupation-container {
+  padding: 20px;
+  width: 200px;
+  color: #fff;
+  background-color: #1245a8;
+  box-shadow: 10px 10px 20px 10px;
   background-color: #1245a8;
 }
 
-.about-sections p {
-  color: red;
-}
-
-.account-sections {
+.about-container {
+  position: relative;
+  margin: 100px auto;
+  padding: 50px;
+  font-size: 16px;
+  /* border: 1px solid #fff; */
+  color: #000;
   background-color: #1245a8;
+  box-shadow: 5px 5px 75px 5px;
 }
 
+.about-container h1 {
+  color: #fff;
+}
+
+.account-container h2 {
+  color: #fff;
+}
+
+.name-occupation-container p,
+.about-sections p,
 .account-sections p {
   color: red;
 }
 
-/** "edit profile" button **/
-.edit-btn {
-  color: #fff;
+.account-container {
+  position: relative;
+  margin: 100px auto;
+  padding: 50px;
+  font-size: 16px;
+  /* border: 1px solid #fff; */
+  /* color: #fff; */
   background-color: #1245a8;
-  /* padding: 5px;
-  margin: 5px; */
+  box-shadow: 5px 5px 75px 5px;
 }
 
-/** label names **/
-.form-label {
-  color: #fff;
+.about-sections,
+.account-sections {
+  margin: 10px;
+  padding: 10px;
 }
 
-/* @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-
-.edit-profile {
-  display: grid;
-  grid-template-columns: 50px;
-  align-items: center;
-  background-color: rgb(16, 65, 88);
-  text-decoration: none;
-}
-
-.about-container {
-  height: 100vh;
-  width: 200vh;
-  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-  border: 10px solid black;
-  background-color: #fff;
-  display: grid;
-}
-
-.about-container h1 {
-  text-align: left;
-}
-
-.about-sections {
-  display: grid;
-  text-align: center;
-  color: #fff;
+.about-section,
+.account-section {
   padding: 5px;
   margin: 5px;
 }
 
-.account-container {
-  height: 300px;
-  width: 300px;
-  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-  border: 10px solid white;
-  background-color: orange;
-  display: grid;
-}
-
-.account-container h1 {
-  text-align: left;
-}
-
-.account-sections {
-  display: grid;
-  text-align: center;
+.form-label {
   color: #fff;
+  /* padding: 10px; */
 }
-
-.about-sections p {
-  color: red;
-}
-
-.account-sections p {
-  color: red;
-}
-
-
-
-.edit-btn:hover {
-  background-color: #fff;
-  color: black;
-}
-
-input[type='tel'] {
-  padding: 2px;
-  margin: 2px;
-  border-radius: 10px;
-}
-
-input[type='email'] {
-  padding: 2px;
-  margin: 2px;
-}
-
-input[type='text'] {
-  padding: 2px;
-  margin: 2px;
-}
-
-input[type='password'] {
-  padding: 2px;
-  margin: 20px;
-  background-color: pink;
-} */
